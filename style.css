@@ -1,0 +1,107 @@
+html {
+  scroll-behavior: smooth;
+}
+h1 {
+  font-family: "Inika", serif;
+}
+h2 {
+  font-family: "Inter", sans-serif;
+}
+
+h3 {
+  font-family: "Jockey One", sans-serif;
+}
+
+h4 {
+  font-family: "Lalezar", cursive;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+body {
+  background-color: #bfc0c0;
+}
+
+a.home {
+  color: #f8f9fa;
+  font-size: 14px;
+}
+a.home:hover {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+a.explore {
+  color: #f8f9fa;
+  font-size: 14px;
+}
+a.explore:hover {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+a.licensing {
+  color: #f8f9fa;
+  font-size: 14px;
+}
+a.licensing:hover {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+.tombol-signin {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+.tombol-signin:hover {
+  background-color: #343a40;
+  color: #f8f9fa;
+}
+
+.kata-kata {
+  color: #f8f9fa;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row .column {
+  flex: 50%;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+}
+
+.row .column img {
+  margin: 2%;
+  box-shadow: 2px 4px 9px rgba(0, 0, 0, 0.25);
+}
+
+.footer {
+  color: #f8f9fa;
+}
+
+@media (max-width: 867px) {
+  h1.intro {
+    font-size: 6vw;
+    position: absolute;
+    transform: translateY(-200px);
+  }
+  p.outro {
+    font-size: 2vw;
+    position: relative;
+    transform: translateY(-100px);
+  }
+  .row .column {
+    flex: none;
+    width: auto;
+    overflow: hidden;
+    height: 100%;
+  }
+}
